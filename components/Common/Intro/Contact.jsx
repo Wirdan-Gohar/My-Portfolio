@@ -1,5 +1,5 @@
 import React from 'react';
-import { CONTACTS } from '../../../constants/constants';
+import { DETAILS } from '../../../constants/constants';
 import Link from 'next/link';
 
 const Contact = () => {
@@ -9,12 +9,12 @@ const Contact = () => {
         <span className='text-Snow text-xs font-bold'>Email Address</span>
 
         <span className='text-xs text-gray-600' mailto>
-          <Link href={`mailto:${CONTACTS.EMAIL}`}>{CONTACTS.EMAIL}</Link>
+          <Link href={`mailto:${DETAILS.email}`}>{DETAILS.email}</Link>
         </span>
       </div>
       <div className='flex flex-col'>
         <span className='text-Snow text-xs font-bold'>Phone</span>
-        <span className='text-xs text-gray-600'>{CONTACTS.PHONE}</span>
+        <span className='text-xs text-gray-600'>{DETAILS.phone}</span>
       </div>
     </div>
   );

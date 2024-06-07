@@ -1,33 +1,30 @@
-export const NAME = 'Muhammad Osama Javaid';
-
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
-
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  first_name: 'Wirdan Gohar',
+  name: 'Muhammad Wirdan Gohar',
+  email: 'm.wirdangohar@gmail.com',
+  phone: '+92-3376020500',
+  designation: 'Senior Frontend Developer',
+  country: 'Pakistan',
+  city: 'Islamabad',
+  Age: '27',
 };
 
 export const SKILLS = [
   {
-    title: 'MERN Stack Developer',
-    level: '75%',
-  },
-  {
-    title: 'React Developer',
+    title: 'React JS',
     level: '91%',
   },
-  // {
-  //   title: 'Desktop Application Developer',
-  //   level: '75%',
-  // },
   {
-    title: 'Backend Developer',
-    level: '54%',
+    title: 'Next JS',
+    level: '65%',
   },
   {
-    title: 'Technical Blogger',
-    level: '83%',
+    title: 'MERN Stack Developer',
+    level: '50%',
+  },
+  {
+    title: 'WordPress',
+    level: '80%',
   },
 ];
 
@@ -36,29 +33,23 @@ export const TECH_STACK = [
   'ReactJS',
   'NextJS',
   'TypeScript',
-  'NodeJS',
   'Redux',
-  'Zustand',
+  'NodeJS',
+  'ExpressJS',
+  'MongoDB',
   'CSS',
   'SCSS',
+  'Material UI',
   'TailwindCSS',
   'Ant Design',
-  'Material UI',
-  'Next UI',
+  'ShadeCN',
   'REST API',
-  'MongoDB',
   'MySQL',
   'Git',
   'GitHub',
   'Jira',
-  'Figma',
-  'Adobe XD',
 ];
 
-export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
-};
 export const SOCIAL_LINKS = {
   GITHUB: 'https://github.com/osamajavaid',
   LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
